@@ -1,5 +1,3 @@
-#pip install deep_translate
-
 from pydub import AudioSegment
 from deep_translator import GoogleTranslator
 import speech_recognition as sr
@@ -64,8 +62,8 @@ def translate_transcribe(input_audio, input_recognizer, i, input_language):
 
 #   input file acts with respect to where THIS FILE is (e.g. samples/song.mp3 means that THIS FILE is in the same location as the sample folder)
 #   same syntax applies for output folder too
-input_file = "/home/saitama/AmProse/samples_audio/godzila.mp3"
-output_folder = "/home/saitama/AmProse/samples_audio"
+input_file = "/home/saitama/AmProse/godzila.mp3"
+output_folder = "/home/saitama/AmProse"
 
 #   Google Language Codes are in https://readthedocs.org/projects/py-googletrans/downloads/pdf/latest/ under googletrans.LANGUAGES
 input_language = "ja"
