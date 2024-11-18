@@ -18,7 +18,7 @@ Ambrose Readme
 -	pip3 install 
 	-	pydub 
 	-	-U deep-translator 
-	-	speech_recognition 
+	-	speechrecognition 
 	-	ffmpeg (shouldnt be necessary if you install pydub first)
 
 	
